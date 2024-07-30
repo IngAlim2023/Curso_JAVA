@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curos Introducción a JAVA</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
@@ -12,21 +13,18 @@
             <h1>Bienvenidos al Curso de JAVA</h1>
         </div>
         <div class="cont-body">
-            <div class="video-j">
+            <div class="video-j" id="jorge">
                 <h2>Programas necesarios y instalaciones</h2>
-                <video src="./img/Jorge.mp4"controls></video> 
+                <video src="./img/Jorge.mp4" ></video> 
             </div>
             <div class="video-j">
                 <h2>Inciar un proyecto y declaración de variables</h2>
-                <video src="./img/Andres.mp4" controls></video>
+                <video src="./img/Andres.mp4"  ></video>
             </div>
             <div class="video-j">
                 <h2>Introducción de datos, condicionales y ciclos</h2>
-                <video src="./img/Jeison.mp4" controls></video>
-            </div>
-            
-            
-            
+                <video src="./img/Jeison.mp4"  ></video>
+            </div>            
         </div>
         <div class="cont-footer">
             <h3>
@@ -37,6 +35,13 @@
             <p>Jorge Porras</p>
         </div>
     </div>
-
+    <!-- Modal para videos -->
+    <dialog id="modal-1">
+        <div class="head-modal">
+            <h2>Programas necesarios y instalaciones</h2><i class="fa-solid fa-xmark" id="close-j"></i>
+        </div>
+        <video src="./img/Jorge.mp4" controls ></video>
+    </dialog>
+    <script src="index.js"></script>
 </body>
 </html>

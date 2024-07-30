@@ -41,6 +41,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .video-j:hover {
@@ -75,6 +76,29 @@ video {
 
 .cont-footer p {
     margin: 5px 0;
+}
+dialog{
+    width: 65%;
+    background: #1f1f1f;
+    color: #00ccff;
+    text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #00ccff, 0 0 30px 0 #00ff99;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.head-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head-modal h2{
+    margin-right: 25%;
+}
+.head-modal i{
+    font-size: 25px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
